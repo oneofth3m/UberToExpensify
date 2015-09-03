@@ -22,7 +22,7 @@ var START_DATE = "2015/08/30 03:00:00 +5:30"
 var END_DATE   = "2015/09/03 03:00:00 +5:30"
 
 var ADDR_1 = ["Green Glen Layout", "HSR Layout"]
-var ADDR_2 = ["Brookefield", "Munnekollal", "AECS Layout"]
+var ADDR_2 = []
 
 var LABEL = "UberReceipts"
 var TO_MAIL = "receipts@expensify.com"
@@ -45,7 +45,7 @@ function getUberMails() {
   var stat_ignored_no_addr1 = 0;
   var stat_ignored_no_addr2 = 0;
   
-  // At max we only read 150 (num_threads_per_request * num_requests) conversations.
+  // At max we only read 300 (num_threads_per_request * num_requests) conversations.
   var num_threads_per_request = 30;
   var num_requests = 10;
   for (var i = 0; i < num_requests; i++) {
