@@ -9,26 +9,27 @@ GMail (If uber receipts are sent to non-Gmail accounts, set a filter to forward 
 - Add a filter to automatically apply label 'UberReceipts' to mails from 'receipts.bangalore@uber.com'.
   * 'Settings' -> 'Filters' -> 'Create a new Filter' -> In From, add 'receipts.bangalore@uber.com' -> 'Create filter with this search' -> Apply the label (select/create 'UberReceipts' in drop down)
 
-Expensify:
-- If uber mails are sent to a different email id than Expensify account then add 'secondary email address'
+Expensify (These steps are needed only if Expensify and Uber accounts are configured with differnt email id's):
+- Add 'secondary email address' in Expensify.
   * 'Personal Settings' -> 'Add Secondary Login' -> Add Gmail id of account configured above.
   * Verify the email id by clicking on the link sent.
 
-search.google.com:
+script.google.com:
 - Go to script.google.com
-- Login with the GMail account configured above.
-- Create a 'Blank Script'
-- Remove any template code
+- Login with the Gmail account configured above containing 'UberReceipts'.
+- Click Start Scripting to proceed to the script editor.
+- Create a 'Blank Project'
+- Remove any code
 - Copy/Paste the script
-- Click on 'Run' button. First time it ask for permissions. Allow.
+- When 'Run' for first time, a dialog box will appear and tell you that the script requires authorization. Click Continue. 
 
-How TO:
+How To:
 - Each month edit the START_DATE and END_DATE in the script.
 - Add/Remove address in 'ADDR_1' and 'ADDR_2' as needed.
 - Do a dry 'Run' by keeping STATS_ONLY = true
-- Got 'View' -> 'Logs'. Scroll down and verify the stats make sense.
+- Goto 'View' -> 'Logs'. Scroll down and verify the stats make sense.
 - Change STATS_ONLY = false
 - Run the script again to forward the receipts to Expensify.
-- Go to 'Expensify' -> 'Receipts' -> 'Select All' -> 'New Report'
+- Go to Expensify -> 'Receipts' -> 'Select All' -> 'New Report'
   * Make sure before running the script, there are no pending receipts in Expensify. Else manually unselect the other receipts 
 
