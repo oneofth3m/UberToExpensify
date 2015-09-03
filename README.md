@@ -14,13 +14,13 @@ Expensify (These steps are needed only if Expensify and Uber accounts are config
   * 'Personal Settings' -> 'Add Secondary Login' -> Add Gmail id of account configured above.
   * Verify the email id by clicking on the link sent.
 
-script.google.com:
+script.google.com (See: https://developers.google.com/apps-script/overview & https://developers.google.com/apps-script/reference/) :
 - Go to script.google.com
 - Login with the Gmail account configured above containing 'UberReceipts'.
 - Click Start Scripting to proceed to the script editor.
 - Create a 'Blank Project'
-- Remove any code
-- Copy/Paste the script
+- Remove any auto generated code.
+- Copy/Paste the script 'uberToExpensify.gs' into editor.
 - When 'Run' for first time, a dialog box will appear and tell you that the script requires authorization. Click Continue. 
 
 How To:
