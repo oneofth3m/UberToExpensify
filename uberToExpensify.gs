@@ -18,8 +18,8 @@
 
 var STATS_ONLY = true
 
-var START_DATE = "2015/08/30 03:00:00 +5:30"
-var END_DATE   = "2015/09/03 03:00:00 +5:30"
+var START_DATE = "2015/08/12 03:00:00 +5:30"
+var END_DATE   = "2015/09/12 03:00:00 +5:30"
 
 var ADDR_1 = ["Green Glen Layout", "HSR Layout"]
 var ADDR_2 = []
