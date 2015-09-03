@@ -9,14 +9,14 @@ GMail (If uber receipts are sent to non-Gmail accounts, set a filter to forward 
 - Add a filter to automatically apply label 'UberReceipts' to mails from 'receipts.bangalore@uber.com'.
   * 'Settings' -> 'Filters' -> 'Create a new Filter' -> In From, add 'receipts.bangalore@uber.com' -> 'Create filter with this search' -> Apply the label (select/create 'UberReceipts' in drop down)
 
-Expensify (These steps are needed only if Expensify and Uber accounts are configured with differnt email id's):
+Expensify (These steps are needed only if Expensify and Uber accounts are configured with different email id's):
 - Add 'secondary email address' in Expensify.
   * 'Personal Settings' -> 'Add Secondary Login' -> Add Gmail id of account configured above.
   * Verify the email id by clicking on the link sent.
 
 script.google.com (See: https://developers.google.com/apps-script/overview & https://developers.google.com/apps-script/reference/) :
 - Go to script.google.com
-- Login with the Gmail account configured above containing 'UberReceipts'.
+- Login with the Gmail account configured above containing label 'UberReceipts'.
 - Click Start Scripting to proceed to the script editor.
 - Create a 'Blank Project'
 - Remove any auto generated code.
