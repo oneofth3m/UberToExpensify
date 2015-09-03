@@ -118,8 +118,8 @@ function getUberMails() {
       
       if (!found_addr_2) {
         Logger.log("Ignoring mail. No match in Second Address..");
-        continue;
         stat_ignored_no_addr2++;
+        continue;
       }
       
       Logger.log("Forwarding '" + first_message.getSubject() + "' received at '" + first_message.getDate() + "'.");
