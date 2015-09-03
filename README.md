@@ -5,7 +5,7 @@ Send uber emails to expensify
 
 How To:
 * Goto 'script.google.com'.
-* Edit 'START_DATE' and 'END_DATE' in the script. Set 'STATS_ONLY' to false.
+* Edit 'START_DATE' and 'END_DATE' in the script.
 * Run the script.
 * Go to Expensify -> 'Receipts' -> 'Select All' -> File 'New Report' and 'Submit'
   - Before running the script, move all existing 'Receipts' in Expensify to 'Reports'.
@@ -13,7 +13,7 @@ How To:
 
 
 STATS_ONLY mode:
-- You can do a dry 'Run' by keeping STATS_ONLY = true.
+- You can do a dry 'Run' by setting 'STATS_ONLY' to true.
 - Run the script and Goto 'View' -> 'Logs'. Scroll down and verify that the stats make sense.
 
 
